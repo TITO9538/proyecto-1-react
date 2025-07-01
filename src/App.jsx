@@ -4,12 +4,12 @@ import { DarkModeToggle } from "./components/darkMode";
 function App() {
   const people = [
     {
-      img: "/public/images/photo1.png",
+      img: "./public/images/photo1.png",
       roll: "PRODUCT OWNER",
       name: "Bill Mahoney",
     },
     {
-      img: "/public/images/photo2.png",
+      img: "../public/images/photo2.png",
       roll: "ART DIRECTOR",
       name: "Saba Cabrera",
     },
