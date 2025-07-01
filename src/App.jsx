@@ -4,32 +4,32 @@ import { DarkModeToggle } from "./components/darkMode";
 function App() {
   const people = [
     {
-      img: "../recursos/images/photo1.png",
+      img: "/public/images/photo1.png",
       roll: "PRODUCT OWNER",
       name: "Bill Mahoney",
     },
     {
-      img: "../recursos/images/photo2.png",
+      img: "/public/images/photo2.png",
       roll: "ART DIRECTOR",
       name: "Saba Cabrera",
     },
     {
-      img: "../recursos/images/photo3.png",
+      img: "/public/images/photo3.png",
       roll: "TECH LEAD",
       name: "Shae Le",
     },
     {
-      img: "../recursos/images/photo4.png",
+      img: "/public/images/photo4.png",
       roll: "UX DESIGNER",
       name: "Skylah Lu",
     },
     {
-      img: "../recursos/images/photo5.png",
+      img: "/public/images/photo5.png",
       roll: "DEVELOPER",
       name: "Griff Richards",
     },
     {
-      img: "../recursos/images/photo6.png",
+      img: "/public/images/photo6.png",
       roll: "DEVERLOPER",
       name: "Stan John",
     },
