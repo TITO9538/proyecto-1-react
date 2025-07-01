@@ -3,37 +3,38 @@ import { DarkModeToggle } from "./components/darkMode";
 
 function App() {
   const people = [
-    {
-      img: "./public/images/photo1.png",
-      roll: "PRODUCT OWNER",
-      name: "Bill Mahoney",
-    },
-    {
-      img: "../public/images/photo2.png",
-      roll: "ART DIRECTOR",
-      name: "Saba Cabrera",
-    },
-    {
-      img: "/public/images/photo3.png",
-      roll: "TECH LEAD",
-      name: "Shae Le",
-    },
-    {
-      img: "/public/images/photo4.png",
-      roll: "UX DESIGNER",
-      name: "Skylah Lu",
-    },
-    {
-      img: "/public/images/photo5.png",
-      roll: "DEVELOPER",
-      name: "Griff Richards",
-    },
-    {
-      img: "/public/images/photo6.png",
-      roll: "DEVERLOPER",
-      name: "Stan John",
-    },
-  ];
+  {
+    img: "/images/photo1.png",
+    roll: "PRODUCT OWNER",
+    name: "Bill Mahoney",
+  },
+  {
+    img: "/images/photo2.png",
+    roll: "ART DIRECTOR",
+    name: "Saba Cabrera",
+  },
+  {
+    img: "/images/photo3.png",
+    roll: "TECH LEAD",
+    name: "Shae Le",
+  },
+  {
+    img: "/images/photo4.png",
+    roll: "UX DESIGNER",
+    name: "Skylah Lu",
+  },
+  {
+    img: "/images/photo5.png",
+    roll: "DEVELOPER",
+    name: "Griff Richards",
+  },
+  {
+    img: "/images/photo6.png",
+    roll: "DEVELOPER",
+    name: "Stan John",
+  },
+];
+
 
   return (
     <div className="h-full bg-white dark:bg-slate-900 transform transition-colors duration-500">
